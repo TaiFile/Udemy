@@ -1,0 +1,67 @@
+body{
+    background-color: azure;
+}
+
+#header{
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+.logo{
+    text-align: center;
+    font-size: 90px;
+    padding: 20px;
+    color: dimgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.pp{
+    text-align: center;
+    font-size: 90px;
+    padding: 20px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+
+.opcoes{
+    text-align: center;
+    font-size: 34px;
+    color:aliceblue;
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.ret{
+    display: flex;
+    justify-content: center;
+}
+
+.clear{
+    clear: both;
+}
+
+a:hover{
+    color: gold;
+    background-color: aliceblue;
+    padding: -10px;
+}
+
+.postagem{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    margin-left: 250px;
+}
+
+h1{
+    color: orange;
+    margin: 0;
+}
