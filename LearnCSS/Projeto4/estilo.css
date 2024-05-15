@@ -1,28 +1,204 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+*{
+    padding: 0;
     margin: 0;
 }
 
-.header{
-    background-color:teal;
+body{
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    background-color: white;
+    /*
+    background-image: url("Imagens/fundo-caixa.png");
+    */
+}
+
+#header{
     background-image: url("Imagens/fundo.png");
     background-position: bottom;
     background-repeat:repeat-x;
     width: 100%;
-    height: 300px;
-    color: midnightblue;
-    border: 1px solid red;
-    display: flex;
+    height: 230px;
+}
+
+#container{
+    width: 800px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(Imagens/detalhe-topo.png) no-repeat right top;
+    padding-bottom: 100px;
+}
+
+.logo
+{
+    height: 120px;
 }
 
 .logo img{
-    border: 1px solid red;
-    width: 200px;
-    margin: 30px 300px;
+    width: 150px;
+    margin-top: 20px;
 }
 
-.detalhe img{
-    border: 1px solid red;
-    margin-left: 500px;
-    margin-top: 20px; 
+/*
+Icones
+*/
+.icones{
+    width: 100%;
+    list-style: none;
+    float: left;
+}
+
+
+.icones li{
+    float: left;
+}
+
+.icones a{
+    background-color:brown;
+    background-image: url(Imagens/divisor.png);
+    background-repeat: repeat-y ;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-collapse: collapse;
+}
+
+.icones a:hover{
+    color: aliceblue;
+    background-color:red;
+}
+
+.primeiro a{
+    background-color: tomato;
+    color: aliceblue;
+}
+
+#conteudo{
+    width: 1000px;
+    height: auto;
+    margin: 30px auto;
+    display:flex;
+}
+
+.cont_esq{
+    width: 180px;
+    background-image: url('Imagens/fundo-caixa.png');
+    height: 70%;
+}
+
+p, a{
+    padding-left: 7px;
+}
+
+h3{
+    background-color:midnightblue;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.cont_esq ul{
+    list-style: none;
+    background-color: white;
+    margin: 20px 10px;
+}
+
+.cont_esq li{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*COnteúdo meio */
+.conteudo_meio
+{
+    width: 320px;
+    margin: 0 30px;
+    background-image: url(Imagens/fundo-caixa.png);
+    height: 370px;
+}
+
+.mConteudo li{
+    list-style: none;
+    clear: both;
+    font-size: small;
+}
+
+.mConteudo  li img{
+    width: 100px;
+}
+
+.mConteudo{
+    margin: 20px 10px;
+    background-color: white;
+}
+
+.mConteudo img{
+    width: 290px;
+    margin: 5px;
+}
+
+.caixa_imagem{
+    width: 110px;
+    float: left;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.descr{
+    margin: 10px 10px;
+    padding-top: 10px;   
+}
+
+.Subtitle{
+    color:dodgerblue;
+    font-weight: bold;
+}
+
+
+h4{
+    text-align: center;
+    background-color:tomato;
+}
+
+.mConteudo a{
+    color: red
+}
+
+.conteudo_dir{
+    background-image: url('Imagens/fundo-caixa.png');
+    width: 300px;
+    height: 360px;
+}
+
+.conteudo_dir img{
+    width: 270px;
+}
+
+.email{
+    margin: 10px 10px;
+    background-color: white;
+}
+
+
+
+#submit{
+    background-color: red;
+    font-weight: bold;
+    padding: 2px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+#rodape{
+    background-color: #294c71;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
 }
