@@ -81,6 +81,10 @@ Icones
     display:flex;
 }
 
+/*
+Conteúdo Esquerdo
+*/
+
 .cont_esq{
     width: 180px;
     background-image: url('Imagens/fundo-caixa.png');
@@ -101,7 +105,7 @@ h3{
 .cont_esq ul{
     list-style: none;
     background-color: white;
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 .cont_esq li{
@@ -111,6 +115,18 @@ h3{
     padding-bottom: 5px;
 }
 
+.cont_esq a{
+    text-decoration: none;
+    color:black;
+    padding: 2px;
+}
+
+.cont_esq a:hover{
+    padding-left: 20px;
+    background: tomato url('Imagens/marcador.png') no-repeat left center;
+    color: whitesmoke;
+}
+
 
 /*COnteúdo meio */
 .conteudo_meio
@@ -118,7 +134,7 @@ h3{
     width: 320px;
     margin: 0 30px;
     background-image: url(Imagens/fundo-caixa.png);
-    height: 370px;
+    height: 360px;
 }
 
 .mConteudo li{
@@ -132,7 +148,7 @@ h3{
 }
 
 .mConteudo{
-    margin: 20px 10px;
+    margin: 10px 10px;
     background-color: white;
 }
 
@@ -141,6 +157,10 @@ h3{
     margin: 5px;
 }
 
+
+/*
+CSS para a caixa com várias imagens e textos
+*/
 .caixa_imagem{
     width: 110px;
     float: left;
@@ -160,6 +180,7 @@ h3{
 
 
 h4{
+    text-transform: uppercase;
     text-align: center;
     background-color:tomato;
 }
@@ -168,29 +189,41 @@ h4{
     color: red
 }
 
+/*
+Conteúdo Direito
+*/
+
 .conteudo_dir{
     background-image: url('Imagens/fundo-caixa.png');
     width: 300px;
-    height: 360px;
+    height: 345px;
 }
 
 .conteudo_dir img{
     width: 270px;
 }
 
-.email{
-    margin: 10px 10px;
+.email, .email label{
+    margin: 10px 5px;
     background-color: white;
+    cursor: pointer;
 }
 
+#cemail{
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 150px;
+}
 
 
 #submit{
     background-color: red;
     font-weight: bold;
-    padding: 2px;
+    padding:5px;
     color: white;
     margin-top: 10px;
+    margin-left: 5px;
 }
 
 
