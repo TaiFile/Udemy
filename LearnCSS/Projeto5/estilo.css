@@ -20,6 +20,9 @@ hr{
     margin: 0 auto;
     min-width: 700px;
 }
+#header img{
+    margin: 1em 2em;
+}
 
 #Rheader{
     float: right;
@@ -74,13 +77,33 @@ hr{
     width: 20em;
     height: 70%;
     float: right;
-    background: url('Imagens/depoimento.png') no-repeat;
     background-size: 230px;
     min-height: 100px;
     min-width: 50px;
 }
 
 #principal{
-    width: 86%;
+    border: 1px solid red;
+    width: 32em;
     height: auto;
+    margin-left: 6.5em;
+    background: blanchedalmond url('Imagens/bg-area-principal.png') repeat-x;
+    padding: 1em 2em;
+    display: flex;
+    float: left;
+}
+
+#principal h3{
+    color:olive;
+    padding-bottom: 0.5em;
+}
+
+#lateral{
+    border: 1px solid blue;
+    width: 39em;
+    height: auto;
+    display: flex;
+    float: left;
+    background: beige url('Imagens/bg-area-lateral.png') repeat-x;
+    padding: 1em 2em;
 }
